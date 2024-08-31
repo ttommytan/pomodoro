@@ -1,25 +1,21 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# Ignore everything
+*
 
-node_modules
-dist
-dist-ssr
-*.local
+# But not these files...
+!index.html
+!LICENSE.txt
+!package-lock.json
+!package.json
+!public/
+!README.md
+!src/
+!vite.config.js
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Even if they are in subdirectories
+!*/
+
+
+# Ignore node_modules even if it's in a tracked directory
 node_modules/
+!/public/**
+!/src/**
