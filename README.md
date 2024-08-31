@@ -22,7 +22,7 @@ To run the Pomodoro Timer locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/pomodoro-timer.git
+   git clone https://github.com/ttommytan/pomodoro.git
    cd pomodoro-timer
 2. **Install Dependencies**:
    ```bash
