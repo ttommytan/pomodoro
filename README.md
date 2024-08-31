@@ -27,11 +27,6 @@ To run the Pomodoro Timer locally, follow these steps:
 2. **Install Dependencies**:
    ```bash
    npm install
-3. **Install FontAwesome**:
-   ```bash
-   npm install --save @fortawesome/fontawesome-svg-core
-   npm install --save @fortawesome/free-solid-svg-icons
-   npm install --save @fortawesome/react-fontawesome
 3. **Start the development server**:
    ```bash
    npm run dev
